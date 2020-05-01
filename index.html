@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>List</title>
+  </head>
+  <body>
+    <!-- --------------------------------------- -->
+    <header>
+      <h1 class="logo">FLUKE</h1>
+      <nav>
+        <ul>
+          <li>programm</li>
+          <li>gallery</li>
+          <li>news</li>
+          <li>info</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- --------------------------------------- -->
+    <div id="top">
+      <div class="box1">
+        <p>not my favorites</p>
+        <p>Movie List</p>
+        <div class="img-box1"></div>
+      </div>
+      <div class="box2"></div>
+    </div>
+
+    <!-- --------------------------------------- -->
+    <div id="middle">
+      <div class="container">
+        <!----TAB--LINKS----->
+        <div class="tabs">
+          <!-- 
+            Each Button will be connected with a respective tab inside 
+            the tabsContent-Wrapper, be careful in adding it.
+           -->
+          <button class="tabLink active" onmouseover="openTab(event, 'tab1')">
+            &#8594;
+          </button>
+          <button class="tabLink" onmouseover="openTab(event, 'tab2')">
+            &#8594;
+          </button>
+          <button class="tabLink" onmouseover="openTab(event, 'tab3')">
+            &#8594;
+          </button>
+          <button class="tabLink" onmouseover="openTab(event, 'tab4')">
+            &#8594;
+          </button>
+          <button class="tabLink" onmouseover="openTab(event, 'tab5')">
+            &#8594;
+          </button>
+          <button class="tabLink" onmouseover="openTab(event, 'tab6')">
+            &#8594;
+          </button>
+          <button class="tabLink" onmouseover="openTab(event, 'tab7')">
+            &#8594;
+          </button>
+          <button class="tabLink" onmouseover="openTab(event, 'tab8')">
+            &#8594;
+          </button>
+        </div>
+        <!----TAB--LINKS---->
+        <!------------------>
+        <!------------------>
+        <!----TAB--CONTENT---->
+        <div class="tabsContent-Wrapper">
+          <div id="tab1" class="tabContent">
+            <h5>//////</h5>
+            <img
+              class="img-set"
+              src="./img/the400blows_Truffaut.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+          <div id="tab2" class="tabContent">
+            <img
+              class="img-set"
+              src="./img/Alien.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+          <div id="tab3" class="tabContent">
+            <img
+              class="img-set"
+              src="./img/LaDolceVita_Fellini.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+          <div id="tab4" class="tabContent">
+            <img
+              class="img-set"
+              src="./img/the-darjeeling-limited-md-web.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+          <div id="tab5" class="tabContent">
+            <img
+              class="img-set"
+              src="./img/aaronwharton_snow700.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+          <div id="tab6" class="tabContent">
+            <img
+              class="img-set"
+              src="./img/AnnieHall-W_A.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+          <div id="tab7" class="tabContent">
+            <img
+              class="img-set"
+              src="./img/Orlando.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+          <div id="tab8" class="tabContent">
+            <img
+              class="img-set"
+              src="./img/rambo-first-blood-japanese-style-b.jpg"
+              width="200"
+              alt="img 1"
+            />
+          </div>
+          <!--  -->
+        </div>
+        <!--  -->
+      </div>
+      <!-- -------------- -->
+      <!-- -------------- -->
+    </div>
+
+    <!-- --------------------------------------- -->
+
+    <div id="bottom">
+      <iframe
+        src="https://player.vimeo.com/video/27413664?title=0&byline=0&portrait=0"
+        width="640"
+        height="344"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+  <script src="./scripts/calcOne.js"></script>
+</html>
