@@ -9,9 +9,10 @@ sectionMiddle.style.backgroundPosition = "center";
 //
 //__1
 function openTab(e, tabId) {
-  // Here i think i am adding a variable to Two classes at the same time: tabContent, tabLink.
+
 
   // __2 without the bbb
+    // Here i think i am adding a variable to Two classes at the same time: tabContent, tabLink.
   var i, tabContent, tabLink, bbb;
   // this way of declaring it, economize me time and lines, mostly for the loops
 
