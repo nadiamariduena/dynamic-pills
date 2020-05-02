@@ -20,7 +20,7 @@ function openTab(e, tabId) {
   bbb = document.getElementsByClassName("tabsContent-Wrapper");
   // --------------------------
   // __3
-  // Hide all tabContent when tab  button is clicked
+
   tabContent = document.getElementsByClassName("tabContent");
   //
   //
@@ -28,6 +28,7 @@ function openTab(e, tabId) {
   // create a loop to check on each of them
   // the action below is going to make that the box hide when it turns false. By origin the content is hidden inside the css, but here is where you tell it to hide when you click on another button with another content.
   //
+    // Hide all tabContent when tab  button is clicked
   for (i = 0; i < tabContent.length; i++) {
     tabContent[i].style.display = "none";
     tabContent[i].style.backgroundColor = "transparent";
